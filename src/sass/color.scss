@@ -1,0 +1,14 @@
+$custom-colors: (
+    'alternate-1': #EEE,
+    'alternate-2': #606060,
+    'alternate-3': #101010,
+    'alternate-4': #ffff,
+    'alternate-5': #D8B36A,
+    'main-color': #222F66,
+    'second-color': #DEAA4E,
+);
+
+$theme-colors: map-merge($custom-colors, $theme-colors);
+
+$primary: #222F66;
+$secondary: #DEAA4E;
