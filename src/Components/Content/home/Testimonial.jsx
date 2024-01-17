@@ -4,6 +4,7 @@ import User1 from "../../../assets/home/user1.png";
 const Testimonial = () => {
   const user = [
     {
+      key: 1,
       profile: User1,
       name: "Urvi Rathod",
       jobTitle: "Entrepeneur",
@@ -11,6 +12,7 @@ const Testimonial = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at amet eu, non vel netus duis enim quis. Arcu nibh nam eget lectus lacus mauris. Tellus in ut aliquam neque mi enim. Accumsan eget adipiscing lacinia lacus viverra tortor, feugiat. In amet, morbi tincidunt bibendum.",
     },
     {
+      key: 2,
       profile: User1,
       name: "Evy Rahmadhani",
       jobTitle: "Entrepeneur",
@@ -18,6 +20,7 @@ const Testimonial = () => {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at amet eu, non vel netus duis enim quis. Arcu nibh nam eget lectus lacus mauris. Tellus in ut aliquam neque mi enim. Accumsan eget adipiscing lacinia lacus viverra tortor, feugiat. In amet, morbi tincidunt bibendum.",
     },
     {
+      key: 3,
       profile: User1,
       name: "Firman Andi",
       jobTitle: "Entrepeneur",
@@ -45,8 +48,9 @@ const Testimonial = () => {
       >
         {user.map((data) => (
           <div
+            key={data.key}
             style={{
-                flex: "0 0 auto",
+              flex: "0 0 auto",
               height: "15.4583vw",
               width: "40.2778vw",
               paddingLeft: "5.5556vw",
@@ -64,9 +68,7 @@ const Testimonial = () => {
                 <span className="testi-titlejob">{data.jobTitle}</span>
               </div>
             </div>
-            <div className="testi-content">
-              {data.message}
-            </div>
+            <div className="testi-content">{data.message}</div>
           </div>
         ))}
       </div>

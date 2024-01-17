@@ -24,7 +24,7 @@ const BookAppointment = () => {
       <img
         src={DoctorConsultation}
         alt="doctor-consultation"
-        style={{ width: "50.0694vw", height: "46.4583vw", objectFit: "none" }}
+        style={{ width: "50.0694vw", height: "46.4583vw", objectFit:'cover' }}
       />
       <div
         className="bg-main-color d-flex flex-column"
