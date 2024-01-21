@@ -4,8 +4,11 @@ $custom-colors: (
     'alternate-3': #101010,
     'alternate-4': #ffff,
     'alternate-5': #D8B36A,
+    'alternate-6': #D9D9D9,
+    'alternate-7': #053B8C,
     'main-color': #222F66,
     'second-color': #DEAA4E,
+
 );
 
 $theme-colors: map-merge($custom-colors, $theme-colors);

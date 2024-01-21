@@ -11,7 +11,7 @@ const Blog = () => {
         paddingLeft: "9.5833vw",
         paddingRight: "9.5833vw",
         paddingTop: "3.3333vw",
-        paddingBottom: "6.6666vw",
+        marginBottom: "4vw"
       }}
     >
       <span className="excelent-header">

@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom'
 import Top from '../Components/Layout/Top'
 import Header from '../Components/Layout/Header'
 import Navbar from '../Components/Layout/Navbar'
+import Footer from '../Components/Layout/footer'
 
 const AppLayout = () => {
   return (
@@ -11,7 +12,7 @@ const AppLayout = () => {
         <Header />
         <Navbar />
         <Outlet/>
-        <div>Footer</div>
+        <Footer/>
     </>
   )
 }

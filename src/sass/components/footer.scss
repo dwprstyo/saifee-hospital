@@ -1,0 +1,126 @@
+.buttom-appointment-content {
+    color: #FFF;
+    font-family: 'PT Serif', serif;
+    font-size: 1.3889vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.buttom-appointment-botton {
+    width: 15.2778vw;
+    height: 3.4722vw;
+    border-radius: 1.7361vw;
+    background: #222F66;
+
+    color: #FFF;
+    font-family: 'PT Serif', serif;
+    font-size: 1.1111vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttom-appointment-img {
+    position: relative;
+    left: 8.6806vw;
+    width: 28.4722vw;
+    height: 31.7361vw;
+    z-index: 99;
+}
+
+.buttom-appointment-rectangle {
+    width: 24.3056vw;
+    height: 24.3056vw;
+    border-radius: 50%;
+    background: #222F66;
+
+    position: absolute;
+    z-index: 1;
+    top: 7.4306vw;
+    left: 12.5vw;
+}
+
+.contact-list-wrapper {
+    width: 23.6111vw;
+    height: 8.3333vw;
+
+    border-radius: 0.8333vw;
+    border: 0.1389vw solid #053B8C;
+}
+
+.contact-list-title {
+    color: #D9D9D9;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.0417vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.contact-list-content {
+    color: #FFF;
+    font-family: 'PT Serif', serif;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.footer-list-title {
+    color: #FFF;
+    font-family: 'PT Serif', serif;
+    font-size: 1.1111vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+    padding-bottom: 1.5vw;
+}
+
+.footer-list-content {
+    color: #FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.9722vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3889vw;
+    text-transform: capitalize;
+}
+
+.privacy-policy {
+    color: #29367D;
+    font-family: 'PT Serif', serif;
+    font-size: 0.8333vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.copyright {
+    color: #222F66;
+    text-align: right;
+    font-family: 'PT Serif', serif;
+    font-size: 0.8333vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.privacy-wrap {
+    padding-left: 6.9444vw;
+    padding-right: 6.9444vw;
+    padding-top: 1.5278vw;
+    padding-top: 1.5278vw;
+}
